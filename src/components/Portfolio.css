@@ -1,0 +1,26 @@
+#portfolio {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.img {
+  /* background: url("./Foto_gab2.jpg") center center no-repeat; */
+  /* background-size: cover; */
+  min-height: 250px;
+}
+
+.card{
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 10px;
+}
+
+.card-body .btn{
+  margin: 5px;
+  width: 120px;
+}
+
+@media all and (max-width: 1000px){
+  .contact-form{
+    margin-top: 20px;
+  }
+}

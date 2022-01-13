@@ -1,0 +1,64 @@
+#about {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.section-title {
+  padding: 30px 0;
+}
+
+.image {
+  background: url("./Foto_gab2.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 10px;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0 16px;
+}
+
+.about .fa-chevron-right {
+  margin-right: 10px;
+  color: #ffb727;
+}
+
+.about .skills-content .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.about .skills-content .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.about .skills-content .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.about .skills-content .progress-bar-wrap {
+  background: #e6e8eb;
+}
+.about .skills-content .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #ffb727;
+}
+@media all and (max-width: 575px) {
+  .about .bio {
+    padding: 20px;
+  }
+
+  .about .bio-desc{
+    text-align: center;
+    margin-top: 30px;
+  }
+}
