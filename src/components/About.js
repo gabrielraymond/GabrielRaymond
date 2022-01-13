@@ -42,7 +42,7 @@ const About = () => {
                 <li className="mb-3">
                   <i className="fas fa-chevron-right"></i>
                   <strong>Website: </strong>
-                  <span>...</span>
+                  <span>loving-fermat-c3502c.netlify.app</span>
                 </li>
                 <li className="mb-3">
                   <i className="fas fa-chevron-right"></i>
